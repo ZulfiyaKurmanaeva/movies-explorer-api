@@ -6,4 +6,6 @@
 
 IP 51.250.20.219
 
-Backend 
+Backend  https://api.diplom.nomoreparties.sbs/
+
+Frontend (to be)  https://diplomov.nomoreparties.sbs/

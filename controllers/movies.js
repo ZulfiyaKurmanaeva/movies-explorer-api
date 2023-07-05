@@ -4,12 +4,7 @@ const BadRequestError = require('../errors/BadRequestError');
 const NotFoundError = require('../errors/NotFoundError');
 const ForbiddenError = require('../errors/ForbiddenError');
 
-const {
-  invalidMovieId,
-  invalidMovieData,
-  accessDenied,
-  invalisMovieDelete,
-} = require('../utils/errorMessages');
+const { invalidMovieId, invalidMovieData, accessDenied, invalisMovieDelete} = require('../utils/errorMessages');
 
 const getMovies = (req, res, next) => {
   movieSchema.find({ owner: req.user._id })

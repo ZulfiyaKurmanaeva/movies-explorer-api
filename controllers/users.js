@@ -7,14 +7,7 @@ const BadRequestError = require('../errors/BadRequestError');
 const NotFoundError = require('../errors/NotFoundError');
 const MongoDuplicateKeyError = require('../errors/MongoDuplicateKeyError');
 
-const {
-  emailExists,
-  invalidUpdateUser,
-  invalidCreateUser,
-  invalidId,
-  NotFoundUser,
-  userExists,
-} = require('../utils/errorMessages');
+const {emailExists, invalidUpdateUser, invalidCreateUser, invalidId, NotFoundUser, userExists,} = require('../utils/errorMessages');
 
 const { secret } = require('../config');
 
